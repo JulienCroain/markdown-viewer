@@ -1,6 +1,7 @@
 {
 	"name": "markdown-viewer",
 	"displayName": "markdown-viewer",
+	"publisher": "juliencroain",
 	"description": "VSCode extension to open a markdown viewer from a string instead of an editor.",
 	"version": "1.0.0",
 	"license": "SEE LICENSE IN LICENSE",
@@ -34,6 +35,7 @@
 		"postinstall": "node ./node_modules/vscode/bin/install",
 		"integration-test": "node ./node_modules/vscode/bin/test"
 	},
+	"repository": "https://github.com/JulienCroain/markdown-viewer",
 	"devDependencies": {
 		"typescript": "^3.1.4",
 		"vscode": "^1.1.25",
